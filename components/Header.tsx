@@ -14,7 +14,7 @@ export const Header = () => {
                 </div>
 
 
-                <button className='bg-[#2cac73] px-6 py-1.5 size-fit rounded-3xl flex gap-4 items-center text-white font-semibold'>
+                <button className='bg-[#2cac73] px-6 py-2 size-fit rounded-3xl flex gap-4 items-center text-white font-bold'>
                     СКАЧАТЬ ПРИЛОЖЕНИЕ
 
                     <Image src={apple} alt='Apple logo' width={20} height={20} />
