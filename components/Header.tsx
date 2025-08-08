@@ -6,7 +6,7 @@ import telegram from '@/public/telegram.svg';
 
 export const Header = () => {
     return (
-        <nav className='py-6 px-7'>
+        <nav className='py-6 sm:px-7 px-5'>
             <div className='flex gap-5 justify-between items-center flex-col md:flex-row max-w-[1440px] mx-auto'>
                 <div className='flex gap-3 xl:gap-5 flex-col xl:flex-row'>
                     <Image width={200} src={logo} alt='Мусорофф лого' />
@@ -14,7 +14,7 @@ export const Header = () => {
                 </div>
 
                 <div className='flex gap-3 xl:gap-5 flex-col xl:flex-row'>
-                    <button className='bg-[#2cac73] px-6 py-2 size-fit rounded-3xl flex gap-4 justify-center items-center text-white font-bold xl:w-fit w-full'>
+                    <button className='bg-[#2cac73] px-6 py-2 text-xs sm:text-base size-fit rounded-3xl flex gap-4 justify-center items-center text-white font-bold xl:w-fit w-full'>
                         СКАЧАТЬ ПРИЛОЖЕНИЕ
 
                         <Image src={apple} alt='Apple logo' width={20} height={20} />
